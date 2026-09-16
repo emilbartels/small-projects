@@ -34,6 +34,8 @@ def scrapeWikiArticle(url):
     time.sleep(2)
     scrapeWikiArticle(random_link)
 
-scrapeWikiArticle("https://en.wikipedia.org/wiki/Counter-Strike_2")
+url = "Counter-Strike_2"
+print("Starting at: " + url)
+scrapeWikiArticle("https://en.wikipedia.org/wiki/" + url)
 
     # Man kan bruge soup.findall()links i form af href="https://www.w3schools.com"
