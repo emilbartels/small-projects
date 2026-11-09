@@ -20,9 +20,5 @@ with keyboard.Listener(on_press=on_press) as listener:
     listener.join()
 
 sys.stdout = orig_stdout
-<<<<<<< HEAD
 f.close()
 
-=======
-f.close()
->>>>>>> edeb9b38263e20e5e48d5a6586a5e1a895a42ca5
