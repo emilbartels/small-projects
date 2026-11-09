@@ -47,4 +47,4 @@ def greet_user(path):
     else:
         userdata = get_new_userdata(path)
         print("i will remember you for next time")
-greet_user('chilltime.json')
+greet_user('remembered.json')
