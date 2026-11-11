@@ -51,6 +51,5 @@ while turns > -1:
     if guess not in word:
         turns -= 1
         print("\nWrong")
-        combined_reply = ("You have " + str(turns) + " more guesses")
-        print(combined_reply)
+        print("You have " + str(turns) + " more guesses")
             
