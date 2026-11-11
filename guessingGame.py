@@ -17,7 +17,7 @@ while turns > -1:
 
     if turns == 0:
             print("You lose")
-            print("The word was:", word)
+            print("The word was: " + word)
             break 
     
     guess = input("\nGuess a character: ").lower()
@@ -39,7 +39,7 @@ while turns > -1:
             counter += 1
     if counter == len(word):
         print("You win")
-        print("The word is:", word)
+        print("The word is: " + word)
         break
 
     for char in word:
