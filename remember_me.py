@@ -9,7 +9,6 @@ def get_stored_userdata(path):
         userdata = json.loads(contents)
         return userdata
     else:
-        print("Error in path and get_stored_userdata")
         return None
 
 def get_new_userdata(path):
